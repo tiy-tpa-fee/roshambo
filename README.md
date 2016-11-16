@@ -15,11 +15,10 @@ I've provided some boilerplate to get you started.
 
 [https://github.com/tiy-tpa-fee/roshambo](https://github.com/tiy-tpa-fee/roshambo)
 
-Fork this repository to your own account, and clone it.
-
 - `take ~/tiy/week-2/day-3`
-- `hub fork tiy-tpa-fee/roshambo.git`
+- `hub clone tiy-tpa-fee/roshambo`
 - `cd roshambo`
+- `hub fork`
 - `atom .`
 - `npm install`
 - `npm start`
