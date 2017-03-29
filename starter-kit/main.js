@@ -28,7 +28,7 @@ const gameOver = (playerDidWin) => {
 const resetGame = () => {
   // TODO: Probably need to do more to reset the game here...
   $('figure.player img').src = 'https://tiy-tpa-fee.github.io/roshambo/starter-kit/images/unknown.svg'
-  $('figure.computer img').src = '/images/unknown.svg'
+  $('figure.computer img').src = 'https://tiy-tpa-fee.github.io/roshambo/starter-kit/images/unknown.svg'
   $('body').className = ''
 }
 
