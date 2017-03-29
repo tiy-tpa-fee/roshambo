@@ -4,8 +4,8 @@ const $$ = s => document.querySelectorAll(s)
 const handleButtonClick = (event) => {
   const player = event.target.className
   const computer = getComputerMove()
-  $('figure.player img').src = `/images/${player}.svg`
-  $('figure.computer img').src = `/images/${computer}.svg`
+  $('figure.player img').src = `https://tiy-tpa-fee.github.io/roshambo/starter-kit/images/${player}.svg`
+  $('figure.computer img').src = `https://tiy-tpa-fee.github.io/roshambo/starter-kit/images/${computer}.svg`
 
   // HINT: Check for win, lose or draw, then call `gameOver()` eventually.
 }
@@ -27,7 +27,7 @@ const gameOver = (playerDidWin) => {
 
 const resetGame = () => {
   // TODO: Probably need to do more to reset the game here...
-  $('figure.player img').src = '/images/unknown.svg'
+  $('figure.player img').src = 'https://tiy-tpa-fee.github.io/roshambo/starter-kit/images/unknown.svg'
   $('figure.computer img').src = '/images/unknown.svg'
   $('body').className = ''
 }
